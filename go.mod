@@ -1,4 +1,4 @@
-module remote_dog
+module github.com/dog/remote_dog
 
 go 1.18
 
