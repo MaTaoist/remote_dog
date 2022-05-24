@@ -57,7 +57,7 @@ type WebhookRes struct {
 	Secret        string   `json:"secret"`
 	NickName      []string `json:"nick_name"`
 	EventTypeList []int    `json:"event_type_list"` // 上线，下线，设置新命令，更新命令，删除命令，update下载了文件
-	Id            int64    `json:"id"`
+	Id            string    `json:"id"`
 }
 
 type Webhook struct {
