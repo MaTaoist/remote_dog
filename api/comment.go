@@ -109,3 +109,11 @@ type Relay struct {
 	ProgramName string `json:"program_name"` // 程序名，启动用的名称
 }
 
+//webhook发送的数据类型
+type PStatus struct {
+	Ip       string // 机器ip
+	Status   int    //变更后的状态 Types 为1时，status 1开启，2掉线（非正常），3关闭（正常） Types为2时 status 1添加命令，2删除命令，3更新命令,4下载程序更新命令
+	Types    int    // 1 状态变更 2 消息通知
+	Msg      string // 通知的消息
+	NickName string // 昵称
+}
