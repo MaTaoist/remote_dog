@@ -70,7 +70,7 @@ type Webhook struct {
 
 
 type DelWebhook struct {
-	Key int64 `json:"key"`
+	Key string `json:"key"`
 }
 
 type KeepLive struct {

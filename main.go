@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"remote_dog/api"
+	//"github.com/MaTaoist/remote_dog"
+	"github.com/MaTaoist/remote_dog/api"
 )
 
 func main()  {
